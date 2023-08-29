@@ -1,0 +1,6 @@
+var name = "Sejal";
+console.log(name)
+var age = 20;
+console.log(name,age)
+console.log(typeof(name)) 
+console.log(typeof(age))
