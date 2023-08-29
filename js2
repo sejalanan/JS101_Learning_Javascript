@@ -1,0 +1,25 @@
+const name = "John Doe";
+const school = "ABC School";
+const grade = "10th";
+const section = "A";
+const rollno = "12345";
+const marks_subject1 = 95;
+const marks_subject2 = 85;
+const marks_subject3 = 92;
+
+// Generate report card
+console.log("╔══════════════════════════════════════╗");
+console.log("║            REPORT CARD               ║");
+console.log("╠══════════════════════════════════════╣");
+console.log("║ Name:        ", name.padEnd(22),"║");
+console.log("║ School:        ", school.padEnd(20), "║");
+console.log("║ Grade:        ", grade.padEnd(21),"║");
+console.log("║ Section:       ", section.padEnd(19),  " ║");
+console.log("║ Roll No.:      ", rollno.padEnd(18), "  ║");
+console.log("╠══════════════════════════════════════╣");
+console.log("║            SUBJECTS        MARKS     ║");
+console.log("╠══════════════════════════════════════╣");
+console.log("║ Subject 1       ", marks_subject1.toString().padEnd(6), "             ║");
+console.log("║ Subject 2       ", marks_subject2.toString().padEnd(6), "             ║");
+console.log("║ Subject 3       ", marks_subject3.toString().padEnd(6), "             ║");
+console.log("╚══════════════════════════════════════╝");
